@@ -18,9 +18,9 @@ Peça ao usuário para digitar sua idade usando um prompt e armazene-a na variá
 
 Agora, caso a idade seja maior ou igual que 18, exiba um alerta com a mensagem "Pode tirar a habilitação!".*/
 
-alert("Boas vindas ao nosso site!");
+//alert("Boas vindas ao nosso site!");
 
-let nome = "Lua";
+/*let nome = "Lua";
 let idade = 25;
 let numeroDeVendas = 50;
 let saldoDisponivel = 1000;
@@ -36,3 +36,29 @@ let idade2 = prompt("Qual sua idade?");
 if (idade2 >= 18){
     alert("Pode tirar habilitação!")
 }
+
+let numeroMaximo = prompt("Digite um número para a contagem regressiva:");
+
+while (numeroMaximo >= 0) {
+    console.log(numeroMaximo);
+    numeroMaximo--;
+}
+
+let numeroMaximo2 = prompt("Digite um número para a contagem progregressiva:");;
+let contador = 0;
+
+while (contador <= numeroMaximo2) {
+    console.log(contador);
+    contador++
+}*/
+
+let quantidadePessoas = 2
+let palavraPessoa = "";
+
+if(quantidadePessoas == 1){
+    palavraPessoa = "pessoa";
+}else{
+    palavraPessoa = "pessoas"
+}
+
+let palavraPessoa2 = quantidadePessoas == 1 ? 'pessoas' : 'pessoa'
