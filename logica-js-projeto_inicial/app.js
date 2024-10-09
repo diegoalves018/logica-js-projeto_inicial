@@ -8,6 +8,7 @@ let numCorreto = false;
 // enquanto chute não for igual ao n.s.
 while (numChute != numeroSecreto) {
     numChute = prompt('Escolha um número entre 1 e 20');
+    // verificacao entre 1 a 20
     if (numChute < 1 || numChute > 20){
         alert('O número escolhido está fora das opções. Tente novamente!')
 
