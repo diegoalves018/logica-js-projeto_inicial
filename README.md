@@ -1,1 +1,1 @@
-Estudano os conceitos básicos do JavaScript :)
+Estudando os conceitos básicos do JavaScript :)
