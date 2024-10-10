@@ -1,1 +1,13 @@
-Estudano os conceitos básicos do JavaScript :)
+Estudando os conceitos básicos do JavaScript :)
+
+Exibindo mensagens na tela
+Alert e prompt
+Comparando variáveis
+Alterando o valor das variáveis
+Live server
+While
+Contador (tentativas++)
+Break
+Operador ternário
+Math random (parseInt(Math.random() * 20 + 1)) 1 a 20 num inteiro
+Const (não altera/sem variação) / let (pode alterar)

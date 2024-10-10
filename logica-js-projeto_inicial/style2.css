@@ -1,0 +1,79 @@
+:root{
+    --color-white: #fff;
+    --color-orange: #f97a36;
+    --color-orange2: #ff5900;
+    --color-blue2: rgb(54, 143, 233);
+    --color-gray: rgb(238, 238, 238);
+    --color-green: rgb(111, 237, 108);
+
+}
+
+body{
+    all: unset;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--color-orange);
+}
+
+.title{
+    background-color: transparent;
+    border: none;
+    color: var(--color-white);
+    text-align: center;
+    outline: none;
+    padding: .4rem;
+    width: 40%;
+    font-size: 2rem;
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: rgba(0,0,0,0.6);
+    color: var(--color-white);
+    padding: 3rem 4rem;
+    border-radius: 1rem;
+}
+
+.content input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid var(--color-gray);
+    color: var(--color-white);
+    outline: none;
+    padding: .4rem;
+    width: 50%;
+    font-size: 1rem;
+}
+
+.content input::placeholder{
+    color: var(--color-white);
+}
+
+.content input:focus{
+    border-bottom: 1px solid var(--color-orange);
+}
+
+.content button{
+    padding: .8rem;
+    width: 80%;
+    font-size: 1rem;
+    background-color: var(--color-blue2);
+    border: none;
+    border-radius: 1rem;
+    color: var(--color-white);
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.content button:hover{
+    background-color: var(--color-orange2);
+}
