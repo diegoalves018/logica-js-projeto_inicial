@@ -57,3 +57,18 @@ const objetoSegundo = { b: 3, c: 4 };
 const objetoFusionado = Object.assign({}, objetoPrimeiro, objetoSegundo);
 
 console.log(objetoFusionado);
+
+
+const time = { nome: `SPFC x Vasco`, 
+    estadio: `Morumbi`,
+    ingresso: 100
+}
+
+const passagem = {
+    rota:`Rio-Sao`,
+    aeroporto: `Santos Dumont - congonhas`,
+    aviao: `gol`
+}
+
+const viagem = { ...time, ...passagem}
+console.log(viagem)
