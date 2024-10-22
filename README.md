@@ -12,4 +12,4 @@ Operador ternário
 Math random (parseInt(Math.random() * 20 + 1)) 1 a 20 num inteiro
 Const (não altera/sem variação) / let (pode alterar)
 jogo do num secreto com css/html/js
-objeto
+noções de objeto (objeto também pode ter métodos. Métodos são funções que atribuem comportamento a um objeto.)
