@@ -13,5 +13,5 @@ Const (não altera/sem variação) / let (pode alterar)
 jogo do num secreto com css/html/js 
 Manipulando objetos: *Object.keys/Object.values/Object.entries/Object.assign
 for … in
- spread operator ou operador de espalhamento
- json: *JSON.stringify (transformando em string)/ JSON.parse (transformando em objeto)/ require()
+spread operator ou operador de espalhamento
+json: *JSON.stringify (transformando em string)/ JSON.parse (transformando em objeto)/ require()
