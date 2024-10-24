@@ -1,0 +1,12 @@
+{
+    "nome": "Ronaldo",
+    "idade": 42,
+    "cpf": "5864558958",
+    "email": "fenomeno@email.com",
+    "telefones": ["55116186164", "5586464645"],
+    "endereco": {
+      "rua": "Rua Pele",
+      "numero": "72",
+      "complemento": "apto 101"
+    }
+  }
