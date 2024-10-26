@@ -26,6 +26,6 @@ Estudando os conceitos básicos
 
 *for … in
 
-*spread operator ou operador de espalhamento
+*spread operator ou operador de espalhamento (...)
 
 *json: *JSON.stringify (transformando em string)/ JSON.parse (transformando em objeto)/ require()
