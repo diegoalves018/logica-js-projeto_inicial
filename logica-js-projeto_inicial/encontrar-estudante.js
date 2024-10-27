@@ -13,3 +13,5 @@ console.log(estudanteEcontrado);
 
 const telefoneEncontrado = buscarInformacao2(estudantes, 'telefone', "31949463623");
 console.log(telefoneEncontrado);
+
+

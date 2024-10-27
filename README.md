@@ -29,3 +29,4 @@ Estudando os conceitos básicos
 *spread operator ou operador de espalhamento (...)
 
 *json: *JSON.stringify (transformando em string)/ JSON.parse (transformando em objeto)/ require()
+*.filter() / .hasOwnProperty()
