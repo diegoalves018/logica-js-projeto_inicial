@@ -30,3 +30,4 @@ Estudando os conceitos básicos
 
 *json: *JSON.stringify (transformando em string)/ JSON.parse (transformando em objeto)/ require()
 *.filter() / .hasOwnProperty()
+*.sort() (ordenando)
